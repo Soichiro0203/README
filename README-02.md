@@ -2,7 +2,7 @@
 
 > **One-liner**: A predictive modeling pipeline using Ridge Regression to estimate apartment prices in Buenos Aires, focusing on feature engineering and outlier mitigation.
 
-## 概要(Problem → Approach → Result)
+## Overview
 
 ### Problem
 Real estate markets in major metropolitan areas like Buenos Aires often contain skewed price distributions and significant "noise" such as outliers, missing data, and multicollinearity. Building an accurate valuation model requires a highly refined data preprocessing strategy to prevent data leakage and handle categorical features effectively.
@@ -26,10 +26,12 @@ The model successfully established a baseline Mean Absolute Error (MAE) and impr
 
 | Metric | Value |
 | :--- | :--- |
-| **Baseline MAE** | $XX,XXX.XX (Task 2.5.8の結果を記入) |
+| **Baseline MAE** | $17,239.94 |
+| **Mean Apt Price**| $54,246.53 |
 | **Model Type** | Ridge Regression |
 | **Data Cleaning** | 10% Trimmed Mean (Surface Area) |
-| **Top Predictor** | (最も係数が高かった地区名を記入) |
+| **Top Positive Factor** | Benito Juárez (+$13,778) |
+| **Top Negative Factor** | Tláhuac (-$14,166) |
 
 ## Dataset
 - **Source**: WorldQuant University - Applied Data Science Lab
