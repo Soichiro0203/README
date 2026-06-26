@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 - Validate the use of **generative AI + no-code ML tools** for real-world data analytics automation
 - Simulate a CS analyst's workflow: seller segmentation → root-cause analysis → improvement recommendations
@@ -16,7 +16,7 @@
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Item | Detail |
 |------|--------|
@@ -26,7 +26,7 @@
 
 ---
 
-## 🔧 Workflow Overview
+## Workflow Overview
 
 ```
 ① Data Collection     →    ② Data Preparation     →    ③ Clustering Analysis     →    ④ Report Generation
@@ -76,7 +76,7 @@ Two structured prompts were engineered with explicit **Role / Context / Input Da
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 | Category | Tool | Purpose |
 |----------|------|---------|
@@ -88,7 +88,7 @@ Two structured prompts were engineered with explicit **Role / Context / Input Da
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 1. **Prompt-driven ETL is viable at scale** — multi-table joins and aggregations across 100K+ rows were executed reliably without writing a single line of Python
 2. **Structured prompts dramatically improve output quality** — specifying Role, Context, Constraints, and Output Format produced consultant-grade reports vs generic summaries
@@ -97,7 +97,7 @@ Two structured prompts were engineered with explicit **Role / Context / Input Da
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── data/
@@ -123,7 +123,7 @@ Two structured prompts were engineered with explicit **Role / Context / Input Da
 
 ---
 
-## 🔗 Related
+## Related
 
 - [Brazilian E-Commerce Dataset — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - [Orange Data Mining](https://orangedatamining.com/)
